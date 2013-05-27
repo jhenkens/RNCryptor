@@ -17,6 +17,14 @@
 		AB13429515E0FC4600456914 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75651B1512D3E9007B806B /* RNCryptor.m */; };
 		AB13429715E0FC4E00456914 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB13429615E0FC4E00456914 /* Security.framework */; };
 		AB13429915E0FD1D00456914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB13429815E0FD1D00456914 /* Foundation.framework */; };
+		D4A7DBBF175404C60031D95E /* RNCryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB75651A1512D3E9007B806B /* RNCryptor.h */; };
+		D4A7DBC0175404C60031D95E /* RNDecryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B807A /* RNDecryptor.h */; };
+		D4A7DBC1175404C60031D95E /* RNEncryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8076 /* RNEncryptor.h */; };
+		D4A7DBC2175404C60031D95E /* RNOpenSSLCryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B806E /* RNOpenSSLCryptor.h */; };
+		D4A7DBC3175404C60031D95E /* RNOpenSSLDecryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B808E /* RNOpenSSLDecryptor.h */; };
+		D4A7DBC4175404C60031D95E /* RNOpenSSLEncryptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B808C /* RNOpenSSLEncryptor.h */; };
+		D4A7DBC5175404C60031D95E /* RNCryptorEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B807E /* RNCryptorEngine.h */; };
+		D4A7DBC6175404C60031D95E /* RNCryptor+Private.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8084 /* RNCryptor+Private.h */; };
 		FB6AC68D16F6704200CA0C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7564F31512D3C4007B806B /* Foundation.framework */; };
 		FB6AC69016F6704200CA0C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6AC68F16F6704200CA0C0A /* main.m */; };
 		FB6AC69D16F672F700CA0C0A /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75651B1512D3E9007B806B /* RNCryptor.m */; };
@@ -32,20 +40,12 @@
 		FB75650E1512D3C4007B806B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB75650C1512D3C4007B806B /* InfoPlist.strings */; };
 		FB7565111512D3C5007B806B /* RNCryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565101512D3C5007B806B /* RNCryptorTests.m */; };
 		FB75651D1512D3E9007B806B /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75651B1512D3E9007B806B /* RNCryptor.m */; };
-		FB75651F1512D7F8007B806B /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB75651A1512D3E9007B806B /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7565241512D9BE007B806B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7565221512D9A8007B806B /* Security.framework */; };
 		FB7565241512D9BE007B806D /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B806C /* RNOpenSSLCryptor.m */; };
-		FB7565241512D9BE007B806F /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B806E /* RNOpenSSLCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7565241512D9BE007B8075 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8074 /* RNEncryptor.m */; };
-		FB7565241512D9BE007B8077 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8076 /* RNEncryptor.h */; };
 		FB7565241512D9BE007B8079 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8078 /* RNDecryptor.m */; };
-		FB7565241512D9BE007B807B /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B807A /* RNDecryptor.h */; };
 		FB7565241512D9BE007B807D /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B807C /* RNCryptorEngine.m */; };
-		FB7565241512D9BE007B807F /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B807E /* RNCryptorEngine.h */; };
-		FB7565241512D9BE007B8085 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8084 /* RNCryptor+Private.h */; };
 		FB7565241512D9BE007B808B /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B808A /* RNOpenSSLEncryptor.m */; };
-		FB7565241512D9BE007B808D /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B808C /* RNOpenSSLEncryptor.h */; };
-		FB7565241512D9BE007B808F /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B808E /* RNOpenSSLDecryptor.h */; };
 		FB7565241512D9BE007B8091 /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7565241512D9BE007B8090 /* RNOpenSSLDecryptor.m */; };
 		FBE1F73B16A899E400C90463 /* RNCryptorV1.enc in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBE1F73A16A899D800C90463 /* RNCryptorV1.enc */; };
 		FBF7D58E167E5031004B6F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7564F31512D3C4007B806B /* Foundation.framework */; };
@@ -64,6 +64,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D4A7DBBE175404A10031D95E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				D4A7DBBF175404C60031D95E /* RNCryptor.h in CopyFiles */,
+				D4A7DBC0175404C60031D95E /* RNDecryptor.h in CopyFiles */,
+				D4A7DBC1175404C60031D95E /* RNEncryptor.h in CopyFiles */,
+				D4A7DBC2175404C60031D95E /* RNOpenSSLCryptor.h in CopyFiles */,
+				D4A7DBC3175404C60031D95E /* RNOpenSSLDecryptor.h in CopyFiles */,
+				D4A7DBC4175404C60031D95E /* RNOpenSSLEncryptor.h in CopyFiles */,
+				D4A7DBC5175404C60031D95E /* RNCryptorEngine.h in CopyFiles */,
+				D4A7DBC6175404C60031D95E /* RNCryptor+Private.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB6AC68A16F6704100CA0C0A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,21 +361,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7564EE1512D3C4007B806B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB75651F1512D7F8007B806B /* RNCryptor.h in Headers */,
-				FB7565241512D9BE007B806F /* RNOpenSSLCryptor.h in Headers */,
-				FB7565241512D9BE007B8077 /* RNEncryptor.h in Headers */,
-				FB7565241512D9BE007B807B /* RNDecryptor.h in Headers */,
-				FB7565241512D9BE007B807F /* RNCryptorEngine.h in Headers */,
-				FB7565241512D9BE007B8085 /* RNCryptor+Private.h in Headers */,
-				FB7565241512D9BE007B808D /* RNOpenSSLEncryptor.h in Headers */,
-				FB7565241512D9BE007B808F /* RNOpenSSLDecryptor.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -403,7 +405,7 @@
 			buildPhases = (
 				FB7564EC1512D3C4007B806B /* Sources */,
 				FB7564ED1512D3C4007B806B /* Frameworks */,
-				FB7564EE1512D3C4007B806B /* Headers */,
+				D4A7DBBE175404A10031D95E /* CopyFiles */,
 			);
 			buildRules = (
 			);
